@@ -1,0 +1,17 @@
+{
+  "production" : {
+    "port" : 8000,
+    "etherscan" : {
+      "rinkeby" : {
+        "baseUrl" : "https://rinkeby.etherscan.io/api"
+      },
+      "mainnet" : {
+        "baseUrl" : "http://api.etherscan.io/api"
+      },
+      "apiKey" : "H157HGC7XJTCS6FCUJ18VI11PEU4MZHU2G"
+    }
+  },
+  "test" : {
+    "port" : 8080
+  }
+}
