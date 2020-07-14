@@ -5,7 +5,7 @@ var {validate} = require('cryptocurrency-address-validator');
 
 const {fetchLedger} = require('../controllers/etherController');
 
-router.get('/getDetails', async (req, res) => {
+router.get('/getLedger', async (req, res) => {
 	try {
 		const {walletAddress} = req.query;
 
@@ -30,6 +30,6 @@ router.get('/getDetails', async (req, res) => {
 		console.log(err);
 		return res.status(500).send({message: "Something went wrong"})
 	}
-})
+});
 
 module.exports = router;
