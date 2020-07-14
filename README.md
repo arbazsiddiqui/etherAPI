@@ -1,5 +1,5 @@
 # ether-api
-[![Build Status](https://travis-ci.org/arbazsiddiqui/log-parser.svg?branch=master)](https://travis-ci.org/arbazsiddiqui/etherAPI)
+[![Build Status](https://travis-ci.org/arbazsiddiqui/etherAPI.svg?branch=master)](https://travis-ci.org/arbazsiddiqui/etherAPI)
 
 >An api to get ledger using a wallet address.
 
